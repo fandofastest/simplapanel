@@ -1,0 +1,42 @@
+ 
+POST http://localhost:3000/next/ HTTP/1.1
+content-type: application/json
+
+{
+    "nextPageToken": "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8",
+    "nextPageContext": {
+      "context": {
+        "client": {
+          "hl": "id",
+          "gl": "ID",
+          "remoteHost": "2001:448a:1082:51cc:8b7:f2c1:eaf2:d104",
+          "deviceMake": "",
+          "deviceModel": "",
+          "visitorData": "CgtOVGNpQ0xwTHNJayjx2oCrBjIICgJJRBICGgA%3D",
+          "userAgent": "axios/0.21.4,gzip(gfe)",
+          "clientName": "WEB",
+          "clientVersion": "2.20231121.08.00",
+          "osVersion": "",
+          "originalUrl": "https://www.youtube.com/results?search_query=music&sp=EgIQAQ%253D%253D",
+          "platform": "DESKTOP",
+          "clientFormFactor": "UNKNOWN_FORM_FACTOR",
+          "configInfo": {
+            "appInstallData": "CPHagKsGENvYrwUQsYewBRDViLAFEMeDsAUQ1-mvBRDcgrAFEOPYrwUQ6sOvBRC36v4SEKf3rwUQ26-vBRDnuq8FEL_3rwUQ0-GvBRCrgrAFEOuWsAUQlPr-EhCigbAFEKiBsAUQzK7-EhCJ6K4FEPaOsAUQyfevBRDh2K8FEPq-rwUQ7qKvBRDf2K8FEK-HsAUQopKwBRCu1P4SEIiHsAUQpcL-EhDks_4SEIjjrwUQzN-uBRC4i64FEKy3rwUQ9fmvBRCDha8FEL75rwUQqfevBRC9tq4FEOLUrgUQ4fKvBRD8hbAFENShrwUQmvCvBRDm_f4SEJmRsAUQnYuwBRDr6P4SEPX7_hIQ3ej-EhCU_K8FEJWVsAUQt--vBRC8-a8FEK2HsAUQ1JKwBRDZya8FEKuHsAUQvoqwBRCmgbAFENDirwUQ6ej-EhCsl7AFEMv_rwUQh5SwBQ%3D%3D"
+          },
+          "userInterfaceTheme": "USER_INTERFACE_THEME_LIGHT",
+          "acceptHeader": "application/json, text/plain, */*",
+          "deviceExperimentId": "ChxOek13TkRnNE9EVTJNREkyTlRnNE16ZzFOUT09EPHagKsGGPHagKsG"
+        },
+        "user": {
+          "lockedSafetyMode": false
+        },
+        "request": {
+          "useSsl": true
+        },
+        "clickTracking": {
+          "clickTrackingParams": "IhMIwsO86+zbggMVt7FWAR14Zgms"
+        }
+      },
+      "continuation": "EpoDEgVtdXNpYxqQA0VnSVFBVWdVZ2dFTFJHTlpjV3RtYW5KRmRrMkNBUXQ1TmxwS1IwTklaelZEZDRJQkMwTmtkblpGVjJwVFpWcGpnZ0VMYjA5dmRFYzRlRWRTZERpQ0FRdEJlVEEwZWtSWmRXRmFRWUlCQ3padVZIRnlSME5yT1dSQmdnRUxSbVppVlhOWE9IazVZbmVDQVFzNE5HcENMVmxpT0RCcmE0SUJDMnh6WDNGTlZtbE9ibGswZ2dFTGFrTTFhM0ZpV1VGTWF6Q0NBUXN0VlRWRVRVMVZhSFExVVlJQkMzVmhUVVJJTjBsT1pqaGpnZ0VMTTFwcWVYaG1NMDF6TVUyQ0FRdEdjbGxDWW5WeWVVWlFSWUlCQ3kxTVp6bExZbXh3YTJKQmdnRUxlbXd0WkRaMFNFUkdlSE9DQVFzMGJsbGFTMjQ1Ums0d2I0SUJDMmRRWjI5Uk1rWjNWWG8wZ2dFTFh6bG5OVVpZVWs5VFdGbUNBUXN4Ym1sZmFtcEhkbE5pU2JJQkJnb0VDQmtRQXVvQkFnZ0MYgeDoGCILc2VhcmNoLWZlZWQ%3D"
+    }
+  }
