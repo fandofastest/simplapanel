@@ -34,7 +34,7 @@ app.get('/getvideos/:id', async (req, res) => {
 
 app.get('/search/:id', async (req, respons) => {
   youtube
-  .GetListByKeyword(req.params.id, false, 2, [{ type: "video" }])
+  .GetListByKeyword(req.params.id, false, 20, [{ type: "video" }])
   .then((res) => {
     console.log("Page1");
     console.log(res);
@@ -52,7 +52,7 @@ app.post('/next/', async (req, res) => {
   let data = req.body;
   // console.log(req)
   youtube
-    .NextPage(data, false, 2)
+    .NextPage(data, false, 20)
     .then((result) => {
       console.log(result);
       res.send(result)
